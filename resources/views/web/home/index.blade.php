@@ -1,0 +1,9 @@
+@extends('layout.web.app')
+@section('content')
+@include('web.home.fragments.slider')
+@include('web.home.fragments.banner_masonary')
+@include('web.home.fragments.banner_masonary2')
+@include('web.home.fragments.spring_summer_product_slider')
+@include('web.home.fragments.store_feature')
+@include('web.home.fragments.best_seller')
+@endsection
