@@ -1,3 +1,6 @@
+@extends('layout.web.app')
+@section("content")
+
  <body class="about-page about-pstyle3">
     <!-- Page Loader -->
     <div id="pre-loader">
