@@ -6,7 +6,7 @@
             <div class="card-header">
                 Login
             </div>
-            <div class="card-body " >
+            <div class="card-body ">
                 <form method="POST" action="{{ route('register') }}">
                     @csrf
                     <div class="row mb-3">
