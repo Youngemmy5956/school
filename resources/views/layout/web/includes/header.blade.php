@@ -72,18 +72,18 @@
                         <ul class="user-links">
                             <li><a href="{{ route('login') }}">Login</a></li>
                             <li><a href="{{ route('register') }}">Sign Up</a></li>
-                            <li><a href="{{ route('my-wishlist') }}">Wishlist</a></li>
-                            <li><a href="{{ route('compare-style1') }}">Compare</a></li>
+                            {{-- <li><a href="{{ route('my-wishlist') }}">Wishlist</a></li> --}}
+                            {{-- <li><a href="{{ route('compare-style1') }}">Compare</a></li> --}}
                         </ul>
                     </div>
                     <!--End Setting Dropdown-->
                     <!--Minicart Drawer-->
                     <div class="header-cart iconset">
-                        <a href="{{ route('cart-style1') }}" class="site-header__cart btn-minicart"
-                            data-bs-toggle="modal" data-bs-target="#minicart-drawer">
-                            <i class="icon an an-sq-bag"></i><span
-                                class="site-cart-count counter d-flex-center justify-content-center position-absolute translate-middle rounded-circle">2</span><span
-                                class="tooltip-label">Cart</span>
+                        {{-- <a href="{{ route('cart-style1') }}" class="site-header__cart btn-minicart" --}}
+                        {{-- data-bs-toggle="modal" data-bs-target="#minicart-drawer"> --}}
+                        <i class="icon an an-sq-bag"></i><span
+                            class="site-cart-count counter d-flex-center justify-content-center position-absolute translate-middle rounded-circle">2</span><span
+                            class="tooltip-label">Cart</span>
                         </a>
                     </div>
                     <!--End Minicart Drawer-->
@@ -135,14 +135,14 @@
                                             <div class="col-md-5 col-lg-5">
                                                 <div class="row">
                                                     <div class="lvl-1 col-md-5 col-lg-6">
-                                                        <a href="#" class="site-nav lvl-1 menu-title">Home
-                                                            Styles</a>
+                                                        {{-- <a href="#" class="site-nav lvl-1 menu-title">Home
+                                                            Styles</a> --}}
                                                         <ul class="subLinks">
                                                             <li class="lvl-2">
-                                                                <a href="{{route('index')}}" class="site-nav lvl-2">Home
-                                                                    01 - Default</a>
+                                                                {{-- <a href="{{route('index')}}" class="site-nav lvl-2">Home
+                                                                    01 - Default</a> --}}
                                                             </li>
-                                                            <li class="lvl-2">
+                                                            {{-- <li class="lvl-2">
                                                                 <a href="index-demo2.html" class="site-nav lvl-2">Home
                                                                     02 - Minimal</a>
                                                             </li>
@@ -232,7 +232,7 @@
                                                                     19 - Swimwear
                                                                     <span class="lbl nm_label1">Hot</span></a>
                                                             </li>
-                                                        </ul>
+                                                        </ul> --}}
                                                     </div>
                                                 </div>
                                             </div>
@@ -241,8 +241,8 @@
                                                     <div class="col-md-6 col-lg-6 imageCol text-center">
                                                         <a href="index-demo5.html" class="mb-2"><img
                                                                 class="lazyload"
-                                                                src="{{asset('assets/images/megamenu/megamenu-banner7.png')}}"
-                                                                data-src="{{asset('assets/images/megamenu/megamenu-banner7.png')}}"
+                                                                src="{{ asset('assets/images/megamenu/megamenu-banner7.png') }}"
+                                                                data-src="{{ asset('assets/images/megamenu/megamenu-banner7.png') }}"
                                                                 alt="image" /></a>
                                                         <p class="m-0">
                                                             <a href="index-demo5.html" class="text-uppercase">Kids
@@ -252,8 +252,8 @@
                                                     <div class="col-md-6 col-lg-6 imageCol text-center">
                                                         <a href="index-demo6.html" class="mb-2"><img
                                                                 class="lazyload"
-                                                                src="{{asset('assets/images/megamenu/megamenu-banner8.png')}}"
-                                                                data-src="{{asset('assets/images/megamenu/megamenu-banner8.png')}}"
+                                                                src="{{ asset('assets/images/megamenu/megamenu-banner8.png') }}"
+                                                                data-src="{{ asset('assets/images/megamenu/megamenu-banner8.png') }}"
                                                                 alt="image" /></a>
                                                         <p class="m-0">
                                                             <a href="index-demo6.html" class="text-uppercase">Single
@@ -432,26 +432,26 @@
                                         <div class="row clear mt-4">
                                             <div class="col-md-3 col-lg-3">
                                                 <a href="shop-left-sidebar.html"><img
-                                                        src="{{asset('assets/images/megamenu/megamenu-banner4-1.jpg')}}"
-                                                        data-src="{{asset('assets/images/megamenu/megamenu-banner4-1.jpg')}}"
+                                                        src="{{ asset('assets/images/megamenu/megamenu-banner4-1.jpg') }}"
+                                                        data-src="{{ asset('assets/images/megamenu/megamenu-banner4-1.jpg') }}"
                                                         alt="image" /></a>
                                             </div>
                                             <div class="col-md-3 col-lg-3">
                                                 <a href="shop-left-sidebar.html"><img
-                                                        src="{{asset('assets/images/megamenu/megamenu-banner4-2.jpg')}}"
-                                                        data-src="{{asset('assets/images/megamenu/megamenu-banner4-2.jpg')}}"
+                                                        src="{{ asset('assets/images/megamenu/megamenu-banner4-2.jpg') }}"
+                                                        data-src="{{ asset('assets/images/megamenu/megamenu-banner4-2.jpg') }}"
                                                         alt="image" /></a>
                                             </div>
                                             <div class="col-md-3 col-lg-3">
                                                 <a href="shop-left-sidebar.html"><img
-                                                        src="{{asset('assets/images/megamenu/megamenu-banner4-3.jpg')}}"
-                                                        data-src="{{asset('assets/images/megamenu/megamenu-banner4-3.jpg')}}"
+                                                        src="{{ asset('assets/images/megamenu/megamenu-banner4-3.jpg') }}"
+                                                        data-src="{{ asset('assets/images/megamenu/megamenu-banner4-3.jpg') }}"
                                                         alt="image" /></a>
                                             </div>
                                             <div class="col-md-3 col-lg-3">
                                                 <a href="shop-left-sidebar.html"><img
-                                                        src="{{asset('assets/images/megamenu/megamenu-banner4-4.jpg')}}"
-                                                        data-src="{{asset('assets/images/megamenu/megamenu-banner4-4.jpg')}}"
+                                                        src="{{ asset('assets/images/megamenu/megamenu-banner4-4.jpg') }}"
+                                                        data-src="{{ asset('assets/images/megamenu/megamenu-banner4-4.jpg') }}"
                                                         alt="image" /></a>
                                             </div>
                                         </div>
@@ -556,24 +556,30 @@
                                                 <a href="#" class="site-nav lvl-1 menu-title">Top Brands</a>
                                                 <div class="menu-brand-logo">
                                                     <a href="brands-style2.html"><img
-                                                            src="{{asset('assets/images/logo/brandlogo1.png')}}" alt="image" /></a>
+                                                            src="{{ asset('assets/images/logo/brandlogo1.png') }}"
+                                                            alt="image" /></a>
                                                     <a href="brands-style2.html"><img
-                                                            src="{{asset('assets/images/logo/brandlogo2.png')}}" alt="image" /></a>
+                                                            src="{{ asset('assets/images/logo/brandlogo2.png') }}"
+                                                            alt="image" /></a>
                                                     <a href="brands-style2.html"><img
-                                                            src="{{asset('assets/images/logo/brandlogo3.png')}}" alt="image" /></a>
+                                                            src="{{ asset('assets/images/logo/brandlogo3.png') }}"
+                                                            alt="image" /></a>
                                                 </div>
                                                 <div class="menu-brand-logo">
                                                     <a href="brands-style2.html"><img
-                                                            src="{{asset('assets/images/logo/brandlogo4.png')}}" alt="image" /></a>
+                                                            src="{{ asset('assets/images/logo/brandlogo4.png') }}"
+                                                            alt="image" /></a>
                                                     <a href="brands-style2.html"><img
-                                                            src="{{asset('assets/images/logo/brandlogo5.png')}}" alt="image" /></a>
+                                                            src="{{ asset('assets/images/logo/brandlogo5.png') }}"
+                                                            alt="image" /></a>
                                                     <a href="brands-style2.html"><img
-                                                            src="{{asset('assets/images/logo/brandlogo6.png')}}" alt="image" /></a>
+                                                            src="{{ asset('assets/images/logo/brandlogo6.png') }}"
+                                                            alt="image" /></a>
                                                 </div>
                                             </div>
                                             <div class="lvl-1 col-md-3 col-lg-3 p-0">
                                                 <a href="shop-left-sidebar.html"><img
-                                                        src="{{asset('assets/images/megamenu/megamenu-banner3.jpg')}}"
+                                                        src="{{ asset('assets/images/megamenu/megamenu-banner3.jpg') }}"
                                                         alt="image" /></a>
                                             </div>
                                         </div>

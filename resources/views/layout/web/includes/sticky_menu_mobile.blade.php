@@ -8,7 +8,7 @@
                 class="menubar-label">Account</span></a>
     </div>
     <div class="menubar-search menubar-item">
-        <a href="{{route('index')}}"><span class="menubar-icon an an-home-l"></span><span
+        {{-- <a href="{{route('index')}}"><span class="menubar-icon an an-home-l"></span><span --}}
                 class="menubar-label">Home</span></a>
     </div>
     <div class="menubar-wish menubar-item">

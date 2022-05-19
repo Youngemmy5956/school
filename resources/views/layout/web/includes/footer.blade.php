@@ -15,10 +15,10 @@
                 <div class="col-12 col-sm-12 col-md-4 col-lg-3 footer-links">
                     <h4 class="h4">Informations</h4>
                     <ul>
-                        <li><a href="{{route('my-account')}}">My Account</a></li>
-                        <li><a href="{{route('aboutus-style1')}}">About us</a></li>
+                        {{-- <li><a href="{{route('my-account')}}">My Account</a></li> --}}
+                        {{-- <li><a href="{{route('aboutus-style1')}}">About us</a></li> --}}
                         <li><a href="{{route('login')}}">Login</a></li>
-                        <li><a href="{{route('privacy-policy')}}">Privacy policy</a></li>
+                        {{-- <li><a href="{{route('privacy-policy')}}">Privacy policy</a></li> --}}
                         <li><a href="#">Terms &amp; condition</a></li>
                     </ul>
                 </div>
@@ -36,8 +36,8 @@
                     <h4 class="h4">Customer Services</h4>
                     <ul>
                         <li><a href="#">Request Personal Data</a></li>
-                        <li><a href="{{route('faqs-style1')}}">FAQ's</a></li>
-                        <li><a href="{{route('contact-style1')}}">Contact Us</a></li>
+                        {{-- <li><a href="{{route('faqs-style1')}}">FAQ's</a></li> --}}
+                        {{-- <li><a href="{{route('contact-style1')}}">Contact Us</a></li> --}}
                         <li><a href="#">Orders and Returns</a></li>
                         <li><a href="#">Support Center</a></li>
                     </ul>
@@ -98,7 +98,7 @@
     <div class="footer-bottom clearfix">
         <div class="container">
             <div class="d-flex-center flex-column justify-content-md-between flex-md-row-reverse">
-                <img src="{{assset('assets/images/payment.png')}}" alt="Paypal Visa Payments" />
+                {{-- <img src="{{assset('assets/images/payment.png')}}" alt="Paypal Visa Payments" /> --}}
                 <div class="copytext text-uppercase">
                     &copy; 2022 Optimal. All Rights Reserved.
                 </div>

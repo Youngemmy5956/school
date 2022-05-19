@@ -20,7 +20,7 @@
             <div class="button-action">
                 <a href="checkout-style1.html" class="btn btn-primary view-cart mx-1 rounded">Go To
                     Checkout</a>
-                <a href="{{route('index')}}" class="btn btn-secondary rounded">Continue Shopping</a>
+                {{-- <a href="{{route('index')}}" class="btn btn-secondary rounded">Continue Shopping</a> --}}
             </div>
         </div>
     </div>

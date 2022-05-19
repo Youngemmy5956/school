@@ -11,18 +11,18 @@
     <!-- Title Of Site -->
     <title>Optimal Multipurpose eCommerce Bootstrap 5 Html Template</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" />
+    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}" />
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="{{asset('assets/css/plugins.css')}}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/plugins.css') }}" />
     <!-- Main Style CSS -->
-    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}" />
 </head>
 
 <body class="template-index index-demo1">
     <!-- Page Loader -->
     <div id="pre-loader">
-        <img src="{{asset('assets/images/loader.gif')}}" alt="Loading..." />
+        <img src="{{ asset('assets/images/loader.gif') }}" alt="Loading..." />
     </div>
     <!-- End Page Loader -->
 
@@ -71,7 +71,7 @@
             <!--End Blog Post-->
 
             <!--Brand Logo Slider-->
-            @include('layout.web.includes.brand_logo_slider')
+            {{-- @include('layout.web.includes.brand_logo_slider') --}}
             <!--End Brand Logo Slider-->
         </div>
         <!--End Body Container-->
@@ -113,11 +113,11 @@
         <!--End Newsletter Popup-->
 
         <!-- Including Jquery -->
-        <script src="{{asset('assets/js/vendor/jquery-min.js')}}"></script>
-        <script src="{{asset('assets/js/vendor/js.cookie.js')}}"></script>
+        <script src="{{ asset('assets/js/vendor/jquery-min.js') }}"></script>
+        <script src="{{ asset('assets/js/vendor/js.cookie.js') }}"></script>
         <!--Including Javascript-->
-        <script src="{{asset('assets/js/plugins.js')}}"></script>
-        <script src="{{asset('assets/js/main.js')}}"></script>
+        <script src="{{ asset('assets/js/plugins.js') }}"></script>
+        <script src="{{ asset('assets/js/main.js') }}"></script>
 
         <!--Newsletter Popup Cookies-->
         <script>

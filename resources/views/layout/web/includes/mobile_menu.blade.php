@@ -4,7 +4,7 @@
     </div>
     <ul id="MobileNav" class="mobile-nav">
         <li class="lvl1 parent megamenu">
-            <a href="{{route('index')}}">Home <i class="an an-plus-l"></i></a>
+            {{-- <a href="{{route('index')}}">Home <i class="an an-plus-l"></i></a> --}}
             <ul>
                 <li>
                     <a href="#" class="site-nav">Home Styles <i class="an an-plus-l"></i></a>

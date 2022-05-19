@@ -6,4 +6,6 @@
 @include('web.home.fragments.spring_summer_product_slider')
 @include('web.home.fragments.store_feature')
 @include('web.home.fragments.best_seller')
+@include('web.home.fragments.testimonial_slider')
+@include('web.home.fragments.blog_post')
 @endsection
